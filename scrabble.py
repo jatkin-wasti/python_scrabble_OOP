@@ -1,7 +1,5 @@
 class ScrabbleDict:
-    def __init__(self, word):
-        self.score = 0
-        self.word = word
+    def __init__(self):
         self.one_point = ["a", "e", "i", "o", "u", "l", "n", "r", "s", "t"]
         self.two_points = ["d", "g"]
         self.three_points = ["b", "c", "m", "p"]
